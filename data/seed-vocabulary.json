@@ -1,0 +1,135 @@
+[
+  {
+    "id": "abandon",
+    "word": "abandon",
+    "phonetic": "/əˈbændən/",
+    "partOfSpeech": "v.",
+    "meaning": "放弃；抛弃；放纵",
+    "example": "They had to abandon their plan due to the bad weather.",
+    "exampleTranslation": "由于天气恶劣，他们不得不放弃他们的计划。",
+    "etymology": "来自古法语 abandoner，含有“交出、放任”的意思。",
+    "bookId": "cet4-core"
+  },
+  {
+    "id": "allocate",
+    "word": "allocate",
+    "phonetic": "/ˈæləkeɪt/",
+    "partOfSpeech": "v.",
+    "meaning": "分配；拨出；划归",
+    "example": "The manager will allocate more time to vocabulary review.",
+    "exampleTranslation": "经理会分配更多时间用于词汇复习。",
+    "etymology": "al- 表示趋向，loc 表示位置，原义为放到某个位置。",
+    "bookId": "cet4-core"
+  },
+  {
+    "id": "convey",
+    "word": "convey",
+    "phonetic": "/kənˈveɪ/",
+    "partOfSpeech": "v.",
+    "meaning": "传达；运输；表达",
+    "example": "A good example can convey the meaning faster than a long note.",
+    "exampleTranslation": "一个好例句能比长笔记更快传达意思。",
+    "etymology": "con- 表示一起，vey 来自道路、运送相关词根。",
+    "bookId": "cet4-core"
+  },
+  {
+    "id": "derive",
+    "word": "derive",
+    "phonetic": "/dɪˈraɪv/",
+    "partOfSpeech": "v.",
+    "meaning": "获得；源自；推导出",
+    "example": "Many English words derive from Latin.",
+    "exampleTranslation": "许多英语单词源自拉丁语。",
+    "etymology": "de- 表示向下，rive 与河流相关，原义为从源头流出。",
+    "bookId": "cet4-core"
+  },
+  {
+    "id": "beneath",
+    "word": "beneath",
+    "phonetic": "/bɪˈniːθ/",
+    "partOfSpeech": "prep./adv.",
+    "meaning": "在……下面；低于；不值得",
+    "example": "Write the meaning beneath the word only after recalling it.",
+    "exampleTranslation": "只有在回忆之后，才把释义写在单词下面。",
+    "etymology": "be- 加 neath，表示在较低的位置。",
+    "bookId": "cet4-core"
+  },
+  {
+    "id": "contrast",
+    "word": "contrast",
+    "phonetic": "/ˈkɒntræst/",
+    "partOfSpeech": "n./v.",
+    "meaning": "对比；差异；形成对照",
+    "example": "Contrast similar words to avoid confusing them.",
+    "exampleTranslation": "对比相似单词，避免混淆。",
+    "etymology": "contra- 表示相反，stare 表示站立，即站在对面。",
+    "bookId": "cet4-core"
+  },
+  {
+    "id": "essential",
+    "word": "essential",
+    "phonetic": "/ɪˈsenʃl/",
+    "partOfSpeech": "adj./n.",
+    "meaning": "必要的；本质的；要素",
+    "example": "Daily review is essential for long-term vocabulary memory.",
+    "exampleTranslation": "每日复习对长期词汇记忆很必要。",
+    "etymology": "essence 表示本质，essential 表示与本质相关的。",
+    "bookId": "cet4-core"
+  },
+  {
+    "id": "frequent",
+    "word": "frequent",
+    "phonetic": "/ˈfriːkwənt/",
+    "partOfSpeech": "adj./v.",
+    "meaning": "频繁的；常见的；常去",
+    "example": "Frequent short reviews are better than one long cramming session.",
+    "exampleTranslation": "频繁的短复习比一次长时间突击更好。",
+    "etymology": "来自拉丁语 frequentare，表示经常聚集或重复出现。",
+    "bookId": "cet4-core"
+  },
+  {
+    "id": "retain",
+    "word": "retain",
+    "phonetic": "/rɪˈteɪn/",
+    "partOfSpeech": "v.",
+    "meaning": "保持；保留；记住",
+    "example": "Spaced repetition helps you retain words longer.",
+    "exampleTranslation": "间隔复习能帮助你更久地记住单词。",
+    "etymology": "re- 表示向后，tain 表示持有，即保持住。",
+    "bookId": "cet4-core"
+  },
+  {
+    "id": "accurate",
+    "word": "accurate",
+    "phonetic": "/ˈækjərət/",
+    "partOfSpeech": "adj.",
+    "meaning": "准确的；精确的",
+    "example": "An accurate self-rating makes the review schedule smarter.",
+    "exampleTranslation": "准确的自我评分会让复习计划更智能。",
+    "etymology": "cur 表示关心、照料，accurate 原指仔细完成的。",
+    "bookId": "cet4-core"
+  },
+  {
+    "id": "visible",
+    "word": "visible",
+    "phonetic": "/ˈvɪzəbl/",
+    "partOfSpeech": "adj.",
+    "meaning": "可见的；明显的",
+    "example": "Keep the answer hidden until recall feels visible in your mind.",
+    "exampleTranslation": "先把答案隐藏，直到你在脑中清楚回忆出来。",
+    "etymology": "vis 表示看，visible 即能被看见的。",
+    "bookId": "cet4-core"
+  },
+  {
+    "id": "priority",
+    "word": "priority",
+    "phonetic": "/praɪˈɒrəti/",
+    "partOfSpeech": "n.",
+    "meaning": "优先事项；优先权",
+    "example": "Weak words get higher priority in today's queue.",
+    "exampleTranslation": "薄弱词会在今日队列中获得更高优先级。",
+    "etymology": "prior 表示较早、在前，priority 表示优先。",
+    "bookId": "cet4-core"
+  }
+]
+

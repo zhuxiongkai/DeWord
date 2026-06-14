@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>得背单词</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">得</div>
+          <div>
+            <strong>得背单词</strong>
+            <span>高效词汇学习</span>
+          </div>
+        </div>
+        <nav class="nav" aria-label="主导航">
+          <button class="nav-item active" data-view="today"><span>▣</span>今日单词</button>
+          <button class="nav-item" data-view="review"><span>☑</span>复习计划</button>
+          <button class="nav-item" data-view="books"><span>▤</span>词库</button>
+          <button class="nav-item" data-view="weak"><span>✕</span>错词本</button>
+          <button class="nav-item" data-view="stats"><span>▥</span>学习统计</button>
+          <button class="nav-item" data-view="settings"><span>⚙</span>设置</button>
+        </nav>
+        <div class="sidebar-footer">快捷键：Enter 揭示 · 1/2/3 评分</div>
+      </aside>
+
+      <main class="workspace">
+        <header class="topbar">
+          <div class="history-buttons">
+            <button aria-label="后退">‹</button>
+            <button aria-label="前进">›</button>
+          </div>
+          <label class="search">
+            <span>⌕</span>
+            <input id="searchInput" type="search" placeholder="搜索单词或中文意思" />
+            <kbd>Ctrl K</kbd>
+          </label>
+          <div class="window-actions" aria-hidden="true">
+            <span>—</span><span>□</span><span>×</span>
+          </div>
+        </header>
+
+        <section class="content">
+          <div class="main-panel" id="mainPanel"></div>
+          <aside class="summary-rail" id="summaryRail"></aside>
+        </section>
+      </main>
+    </div>
+
+    <template id="todayTemplate">
+      <section class="study-card">
+        <div class="card-kicker" id="cardReason">主动回忆</div>
+        <h1 id="wordText">loading</h1>
+        <div class="phonetic-row">
+          <span id="phoneticText"></span>
+          <button class="sound-button" id="speakButton" type="button">▶</button>
+        </div>
+        <div class="answer hidden" id="answerBlock">
+          <div class="meaning-line"><span id="partOfSpeech"></span><strong id="meaningText"></strong></div>
+          <div class="detail-block">
+            <span>例句</span>
+            <p id="exampleText"></p>
+            <small id="exampleTranslation"></small>
+          </div>
+          <div class="detail-block">
+            <span>词源</span>
+            <p id="etymologyText"></p>
+          </div>
+        </div>
+        <div class="recall-hint" id="recallHint">先在脑中回忆意思，再按 Enter 查看答案。</div>
+        <div class="grade-actions hidden" id="gradeActions">
+          <button class="grade known" data-grade="known">认识 <kbd>1</kbd></button>
+          <button class="grade fuzzy" data-grade="fuzzy">模糊 <kbd>2</kbd></button>
+          <button class="grade unknown" data-grade="unknown">不认识 <kbd>3</kbd></button>
+        </div>
+        <button class="primary reveal-button" id="revealButton" type="button">查看释义</button>
+      </section>
+    </template>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
+
